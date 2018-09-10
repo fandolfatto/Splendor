@@ -21,7 +21,9 @@ namespace Splendor
         /// </summary>
         public ConnectionDB()
         {
-
+            //TO DO
+            //Test if the file already exists, create and fill the database if it does not exist
+            //otherwise only create the connection to the database
             SQLiteConnection.CreateFile("Splendor.sqlite");
             
             m_dbConnection = new SQLiteConnection("Data Source=Splendor.sqlite;Version=3;");

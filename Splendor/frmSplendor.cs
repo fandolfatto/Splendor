@@ -114,6 +114,7 @@ namespace Splendor
         {
             //We get the value on the card and we split it to get all the values we need (number of prestige points and ressource)
             //Enable the button "Validate"
+            //get the new card after having selected one
             //TO DO
         }
 
