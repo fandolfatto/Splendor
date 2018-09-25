@@ -167,11 +167,11 @@ namespace Splendor
             player.Ressources = new int[] { 2, 0, 1, 1, 1 };
             player.Coins = new int[] { 0, 1, 0, 1, 1 };
 
-            lblPlayerDiamandCoin.Text = player.Coins[0].ToString();
-            lblPlayerOnyxCoin.Text = player.Coins[1].ToString();
-            lblPlayerRubisCoin.Text = player.Coins[2].ToString();
+            lblPlayerRubisCoin.Text = player.Coins[0].ToString();
+            lblPlayerEmeraudeCoin.Text = player.Coins[1].ToString();
+            lblPlayerOnyxCoin.Text = player.Coins[2].ToString();
             lblPlayerSaphirCoin.Text = player.Coins[3].ToString();
-            lblPlayerEmeraudeCoin.Text = player.Coins[4].ToString();
+            lblPlayerDiamandCoin.Text = player.Coins[4].ToString();
             currentPlayerId = id;
 
             lblPlayer.Text = "Jeu de " + name;
