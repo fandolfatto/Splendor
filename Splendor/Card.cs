@@ -86,7 +86,7 @@ namespace Splendor
         public override string ToString()
         {
             string res = "";
-            
+            //test
             res = Enum.GetName(typeof(Ressources), Ress);
             //Be careful, those \t enables to split the string when clicking on a card
             res += "\t";
